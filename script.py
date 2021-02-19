@@ -198,7 +198,7 @@ def compare_cities(city1, city2, param):
 
 @app.route('/')
 def first_page():
-    return 'Hello, World!'
+    return make_response({'data': 'this is a blank page :^)'})
 
 
 @app.route('/info_about_city', methods=['GET'])
